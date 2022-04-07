@@ -92,16 +92,88 @@ body{
 }
 /* -------------------------------------------------- */
 
-.leftContent{
-    background-image: url(assets/télécharger.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: 100% 30rem  ;
-    height: 50rem  ;
-    color: #fff;
-    padding-top: 20px ;
+main{
+    padding-top: 0px;
+    margin-top: 0px;
 
+}
+.content{
+    background-image: url(assets/télécharger.jpg);
+    background-size: 100% 30rem  ;
+}
+.leftContent{
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 40rem ;
+    color: #fff;
+    font-size:2.3rem;
+    padding-left: 100px;
+    text-align: right;
+    font-weight: bold;
 }
 form{
     font-size: 0.76rem;
+    text-align: left;
+    color: rgb(98, 100, 102);
+    background-color: #fff;
+    height: 35rem;
+    border-radius: 7px;
+    font-size: 1rem;
+    padding-left: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.bgBlack{
+    background-color: black;
+}
+form h3{
+    font-size: 1.9rem;
+    color: #183F72;
+}
+
+form input, select{
+    margin-top: 30px;
+    height: 20rem;
+    width: 90%;
+    background-color:#F7F7F7;
+    border: none;
+    color: rgb(94, 95, 100);
+
+    
+}
+input:focus{
+    border: none ;
+    color: rgb(94, 95, 100);
+    text-transform: uppercase;
+
+}
+.btn{
+    width: 65%;
+    background-color: #00A1CD;
+    color: #fff;
+    font-weight: bold;
+}
+form span{
+    color: #fff;
+    background-color: blue;
+    width: 9rem;
+    height: 23rem;
+    text-align: center;
+    padding-top: 19px;
+    cursor: pointer;
+}
+.nousContacter{
+    float: right;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #777;
+}
+.nousContacter a{
+    text-decoration: none
+}
+.nousContacter a .tel{
+    
 }
